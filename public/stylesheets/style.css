@@ -1,8 +1,19 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+body{
+  background: darkgrey;
 }
-
-a {
-  color: #00B7FF;
+input[type=text], input[type=password],input[type=email]{
+    width: 90%;
+    padding: 15px;
+    margin: 2px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+.login {
+    height: 160px;
+    width: 330px;
+    font-family: "Times New Roman", "Comic Sans MS", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    border: 3px solid black;
 }
