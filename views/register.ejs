@@ -11,18 +11,25 @@
         <p>Please fill in this form to create an account.</p>
         <hr>
 
-        <label for="email"><b>Email</b></label>
-        <input type="email" placeholder="Enter Your Email Here" name="email" required>
+        <div class="InputForm">
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="Enter Your Email Here" name="email" required>
+        </div>
 
-        <label for="pw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Your Password Here" name="pw" required
+        <div class="InputForm">
+            <label for="pw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Your Password Here" name="pw" required
         pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+        </div>
 
-        <label for="cfpw"><b>Confirm Password</b></label>
-        <input type="password" placeholder="Confirm Password" name="cfpw" required
+        <div class="InputForm">
+            <label for="cfpw"><b>Confirm Password</b></label>
+            <input type="password" placeholder="Confirm Password" name="cfpw" required
         pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+        </div>
 
         <button type="submit">Submit</button>
+        <a href="/">Back to main page</a>
     </div>
 </form>
 </body>

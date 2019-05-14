@@ -1,0 +1,16 @@
+{
+  "games":[
+    {
+      "id":1,
+      "name":"Slope",
+      "profile":"slope.jpg",
+      "link":"https://www.y8.com/games/slope"
+    },
+    {
+      "id": 2,
+      "name": "",
+      "profile": "",
+      "link": ""
+    }
+  ]
+}
